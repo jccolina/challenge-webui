@@ -1,0 +1,13 @@
+{
+  "name": "challenge_webui",
+  "version": "1.0.0",
+  "description": "Challenge website using cypress",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:headed": "cypress run --headed"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.0",
+    "typescript": "^5.1.6"
+  }
+}
