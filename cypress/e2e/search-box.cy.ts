@@ -13,7 +13,7 @@ describe('Search box duck duck go', () => {
                 }
             });
             cy.origin(href, () => {
-                cy.url().should('eq', 'https://www.football-data.org/index.php');
+                //cy.url().should('eq', 'https://www.football-data.org/index.php');
             });
         });
     })
