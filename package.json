@@ -4,6 +4,7 @@
   "description": "Challenge website using cypress",
   "scripts": {
     "cy:run": "cypress run",
+    "cy:run:ci": "cypress run --browser %browserPath%",
     "cy:headed": "cypress run --headed"
   },
   "devDependencies": {
